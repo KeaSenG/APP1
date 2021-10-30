@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:background="@drawable/custom_borders"
+        android:text="មុខវិជ្ជា STEM "
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/មុខវិជ្ជាគណិតវិទ្យា"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="90dp"
+        android:text=" មុខវិជ្ជាគណិតវិទ្យា "
+        android:textAlignment="center"
+        android:textColor="#FFD104FF"
+        android:background="@drawable/border4"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/មុខវិជ្ជារូបវិទ្យា"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="180dp"
+        android:text=" មុខវិជ្ជារូបវិទ្យា "
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/purple_200"
+        android:background="@drawable/custom_borders"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:rippleColor="#F3EAEA" />
+
+    <Button
+        android:id="@+id/មុខវិជ្ជាគីមីវិទ្យា"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/broder1"
+        android:text=" មុខវិជ្ជាគីមីវិទ្យា "
+        android:textAlignment="center"
+        android:textColor="#FF052AFA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/មុខវិជ្ជាជីវៈវិទ្យា"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="360dp"
+        android:text=" មុខវិជ្ជាជីវៈវិទ្យា "
+        android:textAlignment="center"
+        android:textColor="#FFF60707"
+        android:background="@drawable/border2"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/មុខវិជ្ជាផែនដីវិទ្យា"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="450dp"
+        android:text=" មុខវិជ្ជាផែនដីវិទ្យា "
+        android:textAlignment="center"
+        android:textColor="#FFFF9800"
+        android:background="@drawable/border3"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+
+
+    <Button
+        android:id="@+id/វិទ្យាសាស្រ្ដកុំព្យូទ័"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="540dp"
+        android:text=" វិទ្យាសាស្រ្ដកុំព្យូទ័រ "
+        android:textAlignment="center"
+        android:textColor="#07B318"
+        android:background="@drawable/border5"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/មុខវិជ្ជាអង់គ្លេស"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="630dp"
+        android:text=" មុខវិជ្ជាអង់គ្លេស "
+        android:textAlignment="center"
+        android:textColor="#FF292C29"
+        android:background="@drawable/border6"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
